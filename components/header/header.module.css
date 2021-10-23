@@ -1,0 +1,102 @@
+.headerDiv {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color:white;
+    position: fixed;
+    top:0;
+    width:100%;
+}
+
+.companyLogo {
+    font-weight: bold;
+    padding:20px;
+    font-size: 20px;
+}
+
+.flexright {
+    margin-left: auto;
+    padding:20px;
+    margin-right:20px;
+    font-size: 25px;
+}
+
+.avatarStack {
+    margin-right:20px;
+}
+
+.loginRightMenu {
+    position: fixed;
+    width:400px;
+    right:0;
+    bottom:0;
+    height: 100%;
+    background-color: white;
+    z-index: 9999;
+    -webkit-box-shadow: -16px 0px 5px -16px rgba(0,0,0,0.75);
+    -moz-box-shadow: -16px 0px 5px -16px rgba(0,0,0,0.75);
+    box-shadow: -16px 0px 5px -16px rgba(0,0,0,0.75);
+    transition: width .5s,opacity .5s,visibility .5s;
+    padding:20px;
+    opacity: 1;
+    color:black;
+    visibility: visible;
+}
+
+.loginRightMenuClose {
+    position: fixed;
+    padding:20px;
+    width:0;
+    right:0;
+    bottom:0;
+    height: 100%;
+    background-color: white;
+    z-index: 9999;
+    -webkit-box-shadow: -16px 0px 5px -16px rgba(0,0,0,0.75);
+    -moz-box-shadow: -16px 0px 5px -16px rgba(0,0,0,0.75);
+    box-shadow: -16px 0px 5px -16px rgba(0,0,0,0.75);
+    transition: width .5s,opacity .5s,visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loginCloseButtonDiv {
+    margin-left:auto;
+    font-size: 20px;
+}
+
+.loginCloseButton {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.loginMenuDiv {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    align-items: center;
+}
+
+.loginTitle {
+    font-size: 30px;
+}
+
+.loginInputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 150px;
+}
+
+.loginIcon {
+    font-size: 40px;
+}
+
+.loginIconDiv {
+    margin-right:20px;
+    padding:10px;
+}
+
+.loginIconDiv:hover {
+    cursor: pointer;
+}

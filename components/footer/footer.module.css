@@ -1,0 +1,34 @@
+.footerDiv {
+    display: flex;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    color: white;
+    padding:20px;
+    width:100%;
+}
+
+.copyRight {
+    display: flex;
+    flex-direction: row;
+    width:100px;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin-left: auto;
+}
+
+.copyRight:hover {
+    cursor: pointer;
+}
+
+.iconDiv {
+    display: flex;
+    flex-direction: row;
+    width: 110px;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.icon:hover {
+    cursor: pointer;
+}

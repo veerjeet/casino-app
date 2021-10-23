@@ -1,0 +1,40 @@
+.contentDiv1 {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 70px;
+    color:black;
+    padding:20px;
+    width: 22%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.balanceTextField {
+    border-radius: 10px 0px 0px 10px;
+    -moz-border-radius: 10px 0px 0px 10px;
+    -webkit-border-radius: 10px 0px 0px 10px;
+}
+
+.balanceAddButton {
+    border-radius: 0px 10px 10px 0px;
+    -moz-border-radius: 0px 10px 10px 0px;
+    -webkit-border-radius: 0px 10px 10px 0px;
+}
+
+.startGameButton {
+    background-color: orange !important;
+    font-size: 20px !important;
+    padding:10px !important;
+    color:white !important;
+}
+
+.startGameButton:hover {
+    background-color: green;
+}
+
+.commonButton {
+    padding:10px !important;
+    color:white !important;
+    background-color: blue !important;
+}
