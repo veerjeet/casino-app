@@ -17,7 +17,7 @@ const Footer = () => {
                 </div>
                 <div className={classes.copyRight}>
                     <CopyrightIcon />
-                    <span>Copyright</span>
+                    <span> Copyright</span>
                 </div>
             </div>
         </>
